@@ -230,7 +230,7 @@ static void chassis_init(chassis_move_t *chassis_move_init) {
     const static float32_t chassis_wz_speed_pid[3] = {1.8362f, 2.4483f, 0.3442f};
     //chassis angle PID
     //底盘角度pid值
-    const static float32_t chassis_yaw_follow_pid[3] = {1.8f, 10.143f, 300.4152f};
+    const static float32_t chassis_yaw_follow_pid[3] = {2.8f, 10.143f, 300.4152f};
 
 //    const static float32_t chassis_x_order_filter[1] = {CHASSIS_ACCEL_X_NUM};
 //    const static float32_t chassis_y_order_filter[1] = {CHASSIS_ACCEL_Y_NUM};
